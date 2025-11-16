@@ -1,0 +1,351 @@
+2025-10-27T19:20:54.955-03:00  INFO 12576 --- [M6_AE2_ABPRO] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T19:20:56.617-03:00  INFO 12576 --- [M6_AE2_ABPRO] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T19:30:52.839-03:00  INFO 1416 --- [M6_AE2_ABPRO] [main] c.e.M6_AE2_ABPRO.M6Ae2AbproApplication   : Starting M6Ae2AbproApplication using Java 24.0.2 with PID 1416 (D:\Downloads\M6_AE2_ABPRO_2\target\classes started by Leomar Contreras in D:\Downloads\M6_AE2_ABPRO_2)
+2025-10-27T19:30:52.842-03:00  INFO 1416 --- [M6_AE2_ABPRO] [main] c.e.M6_AE2_ABPRO.M6Ae2AbproApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T19:30:59.185-03:00  INFO 1416 --- [M6_AE2_ABPRO] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8089 (http)
+2025-10-27T19:31:00.034-03:00  INFO 1416 --- [M6_AE2_ABPRO] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T19:31:00.034-03:00  INFO 1416 --- [M6_AE2_ABPRO] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T19:31:00.589-03:00  INFO 1416 --- [M6_AE2_ABPRO] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T19:31:00.589-03:00  INFO 1416 --- [M6_AE2_ABPRO] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7689 ms
+2025-10-27T19:31:00.751-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2025-10-27T19:31:00.805-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-10-27T19:31:00.821-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-10-27T19:31:00.894-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-10-27T19:31:00.953-03:00  INFO 1416 --- [M6_AE2_ABPRO] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8089 (http) with context path '/'
+2025-10-27T19:31:00.959-03:00  INFO 1416 --- [M6_AE2_ABPRO] [main] c.e.M6_AE2_ABPRO.M6Ae2AbproApplication   : Started M6Ae2AbproApplication in 8.698 seconds (process running for 9.17)
+2025-10-27T19:31:07.875-03:00  INFO 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T19:31:07.875-03:00  INFO 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T19:31:07.876-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-10-27T19:31:07.876-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-10-27T19:31:07.876-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-10-27T19:31:07.876-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@9116785
+2025-10-27T19:31:07.876-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4c08e4aa
+2025-10-27T19:31:07.877-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-10-27T19:31:07.877-03:00  INFO 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T19:31:07.884-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2025-10-27T19:31:07.893-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-10-27T19:31:07.900-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-10-27T19:31:07.903-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource .]
+2025-10-27T19:31:07.903-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-10-27T19:31:07.909-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-10-27T19:31:07.911-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-10-27T19:31:07.929-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-10-27T19:31:07.935-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-10-27T19:31:08.079-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2025-10-27T19:31:08.082-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-10-27T19:31:08.085-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-10-27T19:31:08.085-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T19:31:08.086-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-10-27T19:31:08.086-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-10-27T19:31:08.086-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-10-27T19:31:08.100-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json]
+2025-10-27T19:31:08.102-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Oct 27 19:31:08 GMT-03:00 2025, status=404, error=Not Found, path=/favicon.ico}]
+2025-10-27T19:31:08.144-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-10-27T19:31:32.637-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/eventos", parameters={}
+2025-10-27T19:31:32.637-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#listarAgrupado(Model)
+2025-10-27T19:31:32.651-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2025-10-27T19:31:32.948-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T19:31:40.095-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/eventos/nuevo", parameters={}
+2025-10-27T19:31:40.095-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#mostrarFormulario(Model)
+2025-10-27T19:31:40.111-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2025-10-27T19:31:40.129-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T19:32:06.757-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/eventos", parameters={masked}
+2025-10-27T19:32:06.758-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#guardarEvento(Evento, BindingResult, RedirectAttributes)
+2025-10-27T19:32:06.822-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-9] o.s.web.servlet.view.RedirectView        : View name [redirect:], model {}
+2025-10-27T19:32:06.849-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2025-10-27T19:32:06.856-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/eventos;jsessionid=A9091CFA773B22A26DB9F45C963323F4", parameters={}
+2025-10-27T19:32:06.857-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#listarAgrupado(Model)
+2025-10-27T19:32:06.858-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2025-10-27T19:32:06.884-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T19:33:16.700-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/eventos/nuevo", parameters={}
+2025-10-27T19:33:16.701-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#mostrarFormulario(Model)
+2025-10-27T19:33:16.702-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2025-10-27T19:33:16.704-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T19:33:46.286-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/eventos", parameters={}
+2025-10-27T19:33:46.286-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#listarAgrupado(Model)
+2025-10-27T19:33:46.287-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2025-10-27T19:33:46.290-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T19:33:50.565-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/eventos/nuevo", parameters={}
+2025-10-27T19:33:50.566-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#mostrarFormulario(Model)
+2025-10-27T19:33:50.567-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2025-10-27T19:33:50.569-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T19:34:08.475-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/eventos", parameters={masked}
+2025-10-27T19:34:08.476-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#guardarEvento(Evento, BindingResult, RedirectAttributes)
+2025-10-27T19:34:08.478-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.view.RedirectView        : View name [redirect:], model {}
+2025-10-27T19:34:08.479-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2025-10-27T19:34:08.482-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/eventos", parameters={}
+2025-10-27T19:34:08.483-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#listarAgrupado(Model)
+2025-10-27T19:34:08.484-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2025-10-27T19:34:08.488-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T19:34:27.681-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/eventos", parameters={}
+2025-10-27T19:34:27.681-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#listarAgrupado(Model)
+2025-10-27T19:34:27.682-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2025-10-27T19:34:27.686-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T19:34:27.831-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2025-10-27T19:34:27.832-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-10-27T19:34:27.834-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-10-27T19:34:27.834-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-10-27T19:34:27.834-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-10-27T19:34:27.834-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-10-27T19:34:27.836-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-10-27T19:34:27.836-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json]
+2025-10-27T19:34:27.836-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Oct 27 19:34:27 GMT-03:00 2025, status=404, error=Not Found, path=/favicon.ico}]
+2025-10-27T19:34:27.837-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-10-27T19:34:33.246-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2025-10-27T19:34:33.247-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-10-27T19:34:33.247-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-10-27T19:34:33.247-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource .]
+2025-10-27T19:34:33.247-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-10-27T19:34:33.248-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-10-27T19:34:33.248-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-10-27T19:34:33.250-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-10-27T19:34:33.250-03:00 DEBUG 1416 --- [M6_AE2_ABPRO] [http-nio-8089-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-10-27T19:37:31.342-03:00  INFO 1416 --- [M6_AE2_ABPRO] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T19:37:31.351-03:00  INFO 1416 --- [M6_AE2_ABPRO] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T19:37:34.844-03:00  INFO 22264 --- [M6_AE2_ABPRO] [main] c.e.M6_AE2_ABPRO.M6Ae2AbproApplication   : Starting M6Ae2AbproApplication using Java 24.0.2 with PID 22264 (D:\Downloads\M6_AE2_ABPRO_2\target\classes started by Leomar Contreras in D:\Downloads\M6_AE2_ABPRO_2)
+2025-10-27T19:37:34.846-03:00  INFO 22264 --- [M6_AE2_ABPRO] [main] c.e.M6_AE2_ABPRO.M6Ae2AbproApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T19:37:35.860-03:00  INFO 22264 --- [M6_AE2_ABPRO] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8089 (http)
+2025-10-27T19:37:35.874-03:00  INFO 22264 --- [M6_AE2_ABPRO] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T19:37:35.875-03:00  INFO 22264 --- [M6_AE2_ABPRO] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T19:37:35.926-03:00  INFO 22264 --- [M6_AE2_ABPRO] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T19:37:35.926-03:00  INFO 22264 --- [M6_AE2_ABPRO] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1031 ms
+2025-10-27T19:37:36.109-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2025-10-27T19:37:36.176-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-10-27T19:37:36.189-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-10-27T19:37:36.258-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-10-27T19:37:36.325-03:00  INFO 22264 --- [M6_AE2_ABPRO] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8089 (http) with context path '/'
+2025-10-27T19:37:36.334-03:00  INFO 22264 --- [M6_AE2_ABPRO] [main] c.e.M6_AE2_ABPRO.M6Ae2AbproApplication   : Started M6Ae2AbproApplication in 1.949 seconds (process running for 2.274)
+2025-10-27T19:37:46.464-03:00  INFO 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T19:37:46.465-03:00  INFO 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T19:37:46.465-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-10-27T19:37:46.465-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-10-27T19:37:46.465-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-10-27T19:37:46.466-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@602007e3
+2025-10-27T19:37:46.466-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5bd78ba7
+2025-10-27T19:37:46.466-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-10-27T19:37:46.468-03:00  INFO 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-10-27T19:37:46.475-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2025-10-27T19:37:46.485-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#raiz()
+2025-10-27T19:37:46.506-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.view.RedirectView        : View name [redirect:], model {}
+2025-10-27T19:37:46.507-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2025-10-27T19:37:46.515-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/eventos", parameters={}
+2025-10-27T19:37:46.516-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#listarAgrupado(Model)
+2025-10-27T19:37:46.523-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2025-10-27T19:37:46.753-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T19:37:50.689-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/eventos/nuevo", parameters={}
+2025-10-27T19:37:50.689-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#mostrarFormulario(Model)
+2025-10-27T19:37:50.701-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2025-10-27T19:37:50.718-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T19:37:52.322-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/eventos/nuevo", parameters={}
+2025-10-27T19:37:52.322-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#mostrarFormulario(Model)
+2025-10-27T19:37:52.323-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2025-10-27T19:37:52.326-03:00 DEBUG 22264 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T19:37:58.525-03:00  INFO 22264 --- [M6_AE2_ABPRO] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T19:37:58.535-03:00  INFO 22264 --- [M6_AE2_ABPRO] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T19:46:18.978-03:00  INFO 22116 --- [M6_AE2_ABPRO] [main] c.e.M6_AE2_ABPRO.M6Ae2AbproApplication   : Starting M6Ae2AbproApplication using Java 24.0.2 with PID 22116 (D:\Bootcamp Java\Modulo 6\M6_AE2_ABPRO v.2\target\classes started by Leomar Contreras in D:\Bootcamp Java\Modulo 6\M6_AE2_ABPRO v.2)
+2025-10-27T19:46:18.982-03:00  INFO 22116 --- [M6_AE2_ABPRO] [main] c.e.M6_AE2_ABPRO.M6Ae2AbproApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T19:46:20.023-03:00  INFO 22116 --- [M6_AE2_ABPRO] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8089 (http)
+2025-10-27T19:46:20.038-03:00  INFO 22116 --- [M6_AE2_ABPRO] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T19:46:20.040-03:00  INFO 22116 --- [M6_AE2_ABPRO] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T19:46:20.093-03:00  INFO 22116 --- [M6_AE2_ABPRO] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T19:46:20.093-03:00  INFO 22116 --- [M6_AE2_ABPRO] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1051 ms
+2025-10-27T19:46:20.301-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2025-10-27T19:46:20.373-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-10-27T19:46:20.389-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-10-27T19:46:20.459-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-10-27T19:46:20.526-03:00  INFO 22116 --- [M6_AE2_ABPRO] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8089 (http) with context path '/'
+2025-10-27T19:46:20.536-03:00  INFO 22116 --- [M6_AE2_ABPRO] [main] c.e.M6_AE2_ABPRO.M6Ae2AbproApplication   : Started M6Ae2AbproApplication in 2.094 seconds (process running for 2.491)
+2025-10-27T19:46:27.222-03:00  INFO 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T19:46:27.222-03:00  INFO 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T19:46:27.223-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-10-27T19:46:27.223-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-10-27T19:46:27.223-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-10-27T19:46:27.223-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@27dd39c1
+2025-10-27T19:46:27.223-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@56397dfb
+2025-10-27T19:46:27.224-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-10-27T19:46:27.224-03:00  INFO 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-27T19:46:27.229-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2025-10-27T19:46:27.238-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#raiz()
+2025-10-27T19:46:27.261-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.view.RedirectView        : View name [redirect:], model {}
+2025-10-27T19:46:27.262-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2025-10-27T19:46:27.268-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/eventos", parameters={}
+2025-10-27T19:46:27.270-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#listarAgrupado(Model)
+2025-10-27T19:46:27.274-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2025-10-27T19:46:27.467-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T19:46:28.931-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/eventos/nuevo", parameters={}
+2025-10-27T19:46:28.932-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#mostrarFormulario(Model)
+2025-10-27T19:46:28.943-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2025-10-27T19:46:28.958-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T19:46:51.174-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/eventos", parameters={masked}
+2025-10-27T19:46:51.174-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#guardarEvento(Evento, BindingResult, RedirectAttributes)
+2025-10-27T19:46:51.216-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.web.servlet.view.RedirectView        : View name [redirect:], model {}
+2025-10-27T19:46:51.236-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2025-10-27T19:46:51.242-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/eventos;jsessionid=C2B34BC09067FF8EAD8B4548281E683A", parameters={}
+2025-10-27T19:46:51.243-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#listarAgrupado(Model)
+2025-10-27T19:46:51.244-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2025-10-27T19:46:51.262-03:00 DEBUG 22116 --- [M6_AE2_ABPRO] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T19:54:19.284-03:00  INFO 22116 --- [M6_AE2_ABPRO] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T19:54:19.294-03:00  INFO 22116 --- [M6_AE2_ABPRO] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T20:01:20.883-03:00  INFO 8472 --- [M6_AE2_ABPRO] [main] c.e.M6_AE2_ABPRO.M6Ae2AbproApplication   : Starting M6Ae2AbproApplication using Java 24.0.2 with PID 8472 (D:\Bootcamp Java\Modulo 6\M6_AE2_ABPRO v.2\target\classes started by Leomar Contreras in D:\Bootcamp Java\Modulo 6\M6_AE2_ABPRO v.2)
+2025-10-27T20:01:20.885-03:00  INFO 8472 --- [M6_AE2_ABPRO] [main] c.e.M6_AE2_ABPRO.M6Ae2AbproApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T20:01:21.864-03:00  INFO 8472 --- [M6_AE2_ABPRO] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8089 (http)
+2025-10-27T20:01:21.876-03:00  INFO 8472 --- [M6_AE2_ABPRO] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T20:01:21.877-03:00  INFO 8472 --- [M6_AE2_ABPRO] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T20:01:21.930-03:00  INFO 8472 --- [M6_AE2_ABPRO] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T20:01:21.930-03:00  INFO 8472 --- [M6_AE2_ABPRO] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 990 ms
+2025-10-27T20:01:22.104-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2025-10-27T20:01:22.175-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-10-27T20:01:22.189-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-10-27T20:01:22.252-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-10-27T20:01:22.321-03:00  INFO 8472 --- [M6_AE2_ABPRO] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8089 (http) with context path '/'
+2025-10-27T20:01:22.330-03:00  INFO 8472 --- [M6_AE2_ABPRO] [main] c.e.M6_AE2_ABPRO.M6Ae2AbproApplication   : Started M6Ae2AbproApplication in 1.961 seconds (process running for 2.314)
+2025-10-27T20:01:29.366-03:00  INFO 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T20:01:29.368-03:00  INFO 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T20:01:29.368-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-10-27T20:01:29.369-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-10-27T20:01:29.369-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-10-27T20:01:29.370-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@66dc109c
+2025-10-27T20:01:29.371-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@425c962b
+2025-10-27T20:01:29.373-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-10-27T20:01:29.373-03:00  INFO 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2025-10-27T20:01:29.389-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2025-10-27T20:01:29.400-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#raiz()
+2025-10-27T20:01:29.432-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.view.RedirectView        : View name [redirect:], model {}
+2025-10-27T20:01:29.433-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2025-10-27T20:01:29.438-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/eventos", parameters={}
+2025-10-27T20:01:29.443-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#listarAgrupado(Model)
+2025-10-27T20:01:29.449-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2025-10-27T20:01:29.716-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T20:01:32.363-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/eventos/nuevo", parameters={}
+2025-10-27T20:01:32.363-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#mostrarFormulario(Model)
+2025-10-27T20:01:32.376-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2025-10-27T20:01:32.408-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T20:01:37.174-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/eventos", parameters={masked}
+2025-10-27T20:01:37.174-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#guardarEvento(Evento, BindingResult, RedirectAttributes)
+2025-10-27T20:01:37.228-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.web.servlet.view.RedirectView        : View name [redirect:], model {}
+2025-10-27T20:01:37.251-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2025-10-27T20:01:37.256-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/eventos", parameters={}
+2025-10-27T20:01:37.257-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#listarAgrupado(Model)
+2025-10-27T20:01:37.258-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2025-10-27T20:01:37.273-03:00 DEBUG 8472 --- [M6_AE2_ABPRO] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T20:05:04.347-03:00  INFO 8472 --- [M6_AE2_ABPRO] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T20:05:04.360-03:00  INFO 8472 --- [M6_AE2_ABPRO] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T20:05:39.485-03:00  INFO 20232 --- [M6_AE2_ABPRO] [main] c.e.M6_AE2_ABPRO.M6Ae2AbproApplication   : Starting M6Ae2AbproApplication using Java 24.0.2 with PID 20232 (D:\Bootcamp Java\Modulo 6\M6_AE2_ABPRO v.2\target\classes started by Leomar Contreras in D:\Bootcamp Java\Modulo 6\M6_AE2_ABPRO v.2)
+2025-10-27T20:05:39.488-03:00  INFO 20232 --- [M6_AE2_ABPRO] [main] c.e.M6_AE2_ABPRO.M6Ae2AbproApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T20:05:40.500-03:00  INFO 20232 --- [M6_AE2_ABPRO] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8089 (http)
+2025-10-27T20:05:40.512-03:00  INFO 20232 --- [M6_AE2_ABPRO] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T20:05:40.512-03:00  INFO 20232 --- [M6_AE2_ABPRO] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T20:05:40.555-03:00  INFO 20232 --- [M6_AE2_ABPRO] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T20:05:40.555-03:00  INFO 20232 --- [M6_AE2_ABPRO] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1012 ms
+2025-10-27T20:05:40.741-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2025-10-27T20:05:40.806-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-10-27T20:05:40.820-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-10-27T20:05:40.902-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-10-27T20:05:40.985-03:00  INFO 20232 --- [M6_AE2_ABPRO] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8089 (http) with context path '/'
+2025-10-27T20:05:40.993-03:00  INFO 20232 --- [M6_AE2_ABPRO] [main] c.e.M6_AE2_ABPRO.M6Ae2AbproApplication   : Started M6Ae2AbproApplication in 2.017 seconds (process running for 2.355)
+2025-10-27T20:05:42.523-03:00  INFO 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T20:05:42.523-03:00  INFO 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T20:05:42.523-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-10-27T20:05:42.523-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-10-27T20:05:42.523-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-10-27T20:05:42.524-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@766d4a8e
+2025-10-27T20:05:42.524-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@51987e24
+2025-10-27T20:05:42.525-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-10-27T20:05:42.525-03:00  INFO 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-27T20:05:42.531-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/eventos", parameters={}
+2025-10-27T20:05:42.538-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#listarAgrupado(Model)
+2025-10-27T20:05:42.556-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2025-10-27T20:05:42.740-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T20:05:44.173-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/eventos/nuevo", parameters={}
+2025-10-27T20:05:44.174-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#mostrarFormulario(Model)
+2025-10-27T20:05:44.193-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2025-10-27T20:05:44.207-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T20:05:47.017-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/eventos", parameters={masked}
+2025-10-27T20:05:47.017-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#guardarEvento(Evento, BindingResult, RedirectAttributes)
+2025-10-27T20:05:47.070-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] o.s.web.servlet.view.RedirectView        : View name [redirect:], model {}
+2025-10-27T20:05:47.105-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2025-10-27T20:05:47.110-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/eventos", parameters={}
+2025-10-27T20:05:47.111-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#listarAgrupado(Model)
+2025-10-27T20:05:47.113-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2025-10-27T20:05:47.125-03:00 DEBUG 20232 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T20:08:57.515-03:00  INFO 20232 --- [M6_AE2_ABPRO] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T20:08:57.524-03:00  INFO 20232 --- [M6_AE2_ABPRO] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T20:10:15.136-03:00  INFO 16068 --- [M6_AE2_ABPRO] [main] c.e.M6_AE2_ABPRO.M6Ae2AbproApplication   : Starting M6Ae2AbproApplication using Java 24.0.2 with PID 16068 (D:\Bootcamp Java\Modulo 6\M6_AE2_ABPRO v.2\target\classes started by Leomar Contreras in D:\Bootcamp Java\Modulo 6\M6_AE2_ABPRO v.2)
+2025-10-27T20:10:15.138-03:00  INFO 16068 --- [M6_AE2_ABPRO] [main] c.e.M6_AE2_ABPRO.M6Ae2AbproApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T20:10:16.150-03:00  INFO 16068 --- [M6_AE2_ABPRO] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8089 (http)
+2025-10-27T20:10:16.165-03:00  INFO 16068 --- [M6_AE2_ABPRO] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T20:10:16.165-03:00  INFO 16068 --- [M6_AE2_ABPRO] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T20:10:16.215-03:00  INFO 16068 --- [M6_AE2_ABPRO] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T20:10:16.215-03:00  INFO 16068 --- [M6_AE2_ABPRO] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1026 ms
+2025-10-27T20:10:16.397-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2025-10-27T20:10:16.471-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-10-27T20:10:16.488-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-10-27T20:10:16.565-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-10-27T20:10:16.638-03:00  INFO 16068 --- [M6_AE2_ABPRO] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8089 (http) with context path '/'
+2025-10-27T20:10:16.648-03:00  INFO 16068 --- [M6_AE2_ABPRO] [main] c.e.M6_AE2_ABPRO.M6Ae2AbproApplication   : Started M6Ae2AbproApplication in 2.052 seconds (process running for 2.374)
+2025-10-27T20:10:21.306-03:00  INFO 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T20:10:21.306-03:00  INFO 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T20:10:21.306-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-10-27T20:10:21.307-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-10-27T20:10:21.307-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-10-27T20:10:21.307-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3e9e4419
+2025-10-27T20:10:21.307-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5575cddf
+2025-10-27T20:10:21.308-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-10-27T20:10:21.308-03:00  INFO 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-27T20:10:21.314-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/eventos", parameters={}
+2025-10-27T20:10:21.322-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#listarAgrupado(Model)
+2025-10-27T20:10:21.344-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2025-10-27T20:10:21.576-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T20:10:23.626-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/eventos/nuevo", parameters={}
+2025-10-27T20:10:23.626-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#mostrarFormulario(Model)
+2025-10-27T20:10:23.640-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2025-10-27T20:10:23.672-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T20:10:26.257-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/eventos", parameters={masked}
+2025-10-27T20:10:26.258-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#guardarEvento(Evento, BindingResult, RedirectAttributes)
+2025-10-27T20:10:26.317-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] o.s.web.servlet.view.RedirectView        : View name [redirect:], model {}
+2025-10-27T20:10:26.342-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2025-10-27T20:10:26.348-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/eventos", parameters={}
+2025-10-27T20:10:26.348-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#listarAgrupado(Model)
+2025-10-27T20:10:26.349-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2025-10-27T20:10:26.362-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T20:10:30.557-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/eventos/borrar-todo", parameters={masked}
+2025-10-27T20:10:30.557-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#borrarTodo(RedirectAttributes)
+2025-10-27T20:10:30.560-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-6] o.s.web.servlet.view.RedirectView        : View name [redirect:], model {}
+2025-10-27T20:10:30.560-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2025-10-27T20:10:30.564-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/eventos", parameters={}
+2025-10-27T20:10:30.564-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#listarAgrupado(Model)
+2025-10-27T20:10:30.565-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2025-10-27T20:10:30.567-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T20:10:31.504-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/eventos/nuevo", parameters={}
+2025-10-27T20:10:31.504-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#mostrarFormulario(Model)
+2025-10-27T20:10:31.506-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2025-10-27T20:10:31.509-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T20:10:33.658-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/eventos", parameters={masked}
+2025-10-27T20:10:33.658-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#guardarEvento(Evento, BindingResult, RedirectAttributes)
+2025-10-27T20:10:33.661-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-8] o.s.web.servlet.view.RedirectView        : View name [redirect:], model {}
+2025-10-27T20:10:33.662-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2025-10-27T20:10:33.667-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/eventos", parameters={}
+2025-10-27T20:10:33.668-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#listarAgrupado(Model)
+2025-10-27T20:10:33.669-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2025-10-27T20:10:33.671-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T20:10:35.946-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/eventos/borrar", parameters={masked}
+2025-10-27T20:10:35.946-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#borrarEvento(String, LocalDate, String, RedirectAttributes)
+2025-10-27T20:10:35.950-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-10] o.s.web.servlet.view.RedirectView        : View name [redirect:], model {}
+2025-10-27T20:10:35.951-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2025-10-27T20:10:35.955-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/eventos", parameters={}
+2025-10-27T20:10:35.956-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ejemplo.M6_AE2_ABPRO.controller.AgendaController#listarAgrupado(Model)
+2025-10-27T20:10:35.957-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2025-10-27T20:10:35.960-03:00 DEBUG 16068 --- [M6_AE2_ABPRO] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-27T20:10:44.274-03:00  INFO 16068 --- [M6_AE2_ABPRO] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T20:10:44.284-03:00  INFO 16068 --- [M6_AE2_ABPRO] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T20:11:09.402-03:00  INFO 25868 --- [M6_AE2_ABPRO] [main] c.e.M6_AE2_ABPRO.AgendaServiceTests      : Starting AgendaServiceTests using Java 24.0.2 with PID 25868 (started by Leomar Contreras in D:\Bootcamp Java\Modulo 6\M6_AE2_ABPRO v.2)
+2025-10-27T20:11:09.404-03:00  INFO 25868 --- [M6_AE2_ABPRO] [main] c.e.M6_AE2_ABPRO.AgendaServiceTests      : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T20:11:09.427-03:00 DEBUG 25868 --- [M6_AE2_ABPRO] [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@160c3ec1
+2025-10-27T20:11:10.364-03:00 DEBUG 25868 --- [M6_AE2_ABPRO] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2025-10-27T20:11:10.448-03:00 DEBUG 25868 --- [M6_AE2_ABPRO] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-10-27T20:11:10.464-03:00 DEBUG 25868 --- [M6_AE2_ABPRO] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-10-27T20:11:10.516-03:00 DEBUG 25868 --- [M6_AE2_ABPRO] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-10-27T20:11:10.563-03:00  INFO 25868 --- [M6_AE2_ABPRO] [main] c.e.M6_AE2_ABPRO.AgendaServiceTests      : Started AgendaServiceTests in 1.501 seconds (process running for 2.698)
+2025-10-27T20:11:11.203-03:00  INFO 25868 --- [M6_AE2_ABPRO] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.ejemplo.M6_AE2_ABPRO.M6Ae2AbproApplicationTests]: M6Ae2AbproApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-27T20:11:11.205-03:00  INFO 25868 --- [M6_AE2_ABPRO] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.ejemplo.M6_AE2_ABPRO.M6Ae2AbproApplication for test class com.ejemplo.M6_AE2_ABPRO.M6Ae2AbproApplicationTests
+2025-10-27T20:11:11.285-03:00 DEBUG 25868 --- [M6_AE2_ABPRO] [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@160c3ec1, started on Mon Oct 27 20:11:09 GMT-03:00 2025

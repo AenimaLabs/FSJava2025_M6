@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de Eventos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+<div class="container min-vh-100 d-flex flex-column justify-content-center align-items-center py-4">
+
+    <div class="w-100" style="max-width: 900px;">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h2 class="mb-0">Registro de Nuevo Evento</h2>
+            <div class="d-flex gap-2">
+                <!-- Listar -->
+                <a th:href="@{/eventos}" class="btn btn-outline-secondary">Listar</a>
+
+                <!-- Borrar todos -->
+                <form th:action="@{/eventos/borrar-todo}" method="post"
+                      onsubmit="return confirm('¿Eliminar TODOS los eventos?');">
+                    <button type="submit" class="btn btn-danger">Borrar todos</button>
+                </form>
+            </div>
+        </div>
+
+        <form class="row g-3 card p-4 shadow-sm" th:action="@{/eventos}" th:object="${evento}" method="POST">
+
+            <div class="col-md-6">
+                <label for="titulo" class="form-label">Nombre del Evento</label>
+                <input type="text" class="form-control" id="titulo" th:field="*{titulo}" placeholder="Nombre del evento" />
+                <div th:if="${#fields.hasErrors('titulo')}" th:errors="*{titulo}" class="text-danger small">Error de Título</div>
+            </div>
+
+            <div class="col-md-6">
+                <label for="fecha" class="form-label">Fecha del Evento</label>
+                <input type="date" class="form-control" id="fecha" th:field="*{fecha}" />
+                <div th:if="${#fields.hasErrors('fecha')}" th:errors="*{fecha}" class="text-danger small">Error de Fecha</div>
+            </div>
+
+            <div class="col-12">
+                <label for="descripcion" class="form-label">Descripción</label>
+                <textarea class="form-control" id="descripcion" th:field="*{descripcion}" rows="4" placeholder="Descripción del evento"></textarea>
+                <div th:if="${#fields.hasErrors('descripcion')}" th:errors="*{descripcion}" class="text-danger small">Error de Descripción</div>
+            </div>
+
+            <div class="col-md-6">
+                <label for="responsable" class="form-label">Responsable</label>
+                <input type="text" class="form-control" id="responsable" th:field="*{responsable}" placeholder="Nombre del responsable" />
+                <div th:if="${#fields.hasErrors('responsable')}" th:errors="*{responsable}" class="text-danger small">Error de Responsable</div>
+            </div>
+
+            <div class="col-12 d-flex gap-2">
+                <button type="submit" class="btn btn-primary">Guardar Evento</button>
+                <a th:href="@{/eventos}" class="btn btn-secondary">Cancelar y Volver</a>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
