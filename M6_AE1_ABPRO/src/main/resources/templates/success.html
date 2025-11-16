@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Datos recibidos</title>
+</head>
+<body>
+<h1>Datos recibidos correctamente</h1>
+
+<p th:text="'Nombre: ' + ${persona.nombre}"></p>
+<p th:text="'Edad: ' + ${persona.edad}"></p>
+
+<a th:href="@{/form}">Volver al formulario</a>
+</body>
+</html>

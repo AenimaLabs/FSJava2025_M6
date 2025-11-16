@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+<body>
+<h1>Formulario</h1>
+
+<form th:action="@{/form}" th:object="${persona}" method="post">
+    <div>
+        <label>Nombre:</label>
+        <input th:field="*{nombre}" />
+        <div th:if="${#fields.hasErrors('nombre')}" th:errors="*{nombre}"></div>
+    </div>
+
+    <div>
+        <label>Edad:</label>
+        <input type="number" th:field="*{edad}" min="0" />
+        <div th:if="${#fields.hasErrors('edad')}" th:errors="*{edad}"></div>
+    </div>
+
+    <button type="submit">Enviar</button>
+</form>
+
+</body>
+</html>
